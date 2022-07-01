@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add new book</title>
+</head>
+<body>
+<form action="Authorization.php" method="post">
+    <label>isbn</label>
+    <input name="isbn" type="text"/>
+    <label>title</label>
+    <input name="title" type="text"/>
+    <label>price</label>
+    <input name="price" type="text"/>
+    <input type="submit" value="Create"/>
+    <input type="hidden" name="command" value="add_new_book">
+</form>
+</body>
+</html>
